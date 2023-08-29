@@ -1,0 +1,15 @@
+{
+  "name": "tw-tut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss -i ./css/styles.css -o ./build/output.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3",
+    "watch": "^1.0.2"
+  }
+}
